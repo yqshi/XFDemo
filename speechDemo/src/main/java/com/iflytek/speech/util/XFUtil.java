@@ -31,10 +31,13 @@ public class XFUtil {
     // 用HashMap存储听写结果
     private HashMap<String, String> mIatResults = new LinkedHashMap<String, String>();
 
+
+
+
+
     /**
      * 参数设置
      *
-     * @return
      */
     public void setParam() {
         // 清空参数
@@ -66,6 +69,11 @@ public class XFUtil {
         mIat.setParameter(SpeechConstant.AUDIO_FORMAT, "wav");
         mIat.setParameter(SpeechConstant.ASR_AUDIO_PATH, Environment.getExternalStorageDirectory() + "/msc/iat.wav");
     }
+
+    private void startVoice(){
+
+    }
+
 
 
 }
